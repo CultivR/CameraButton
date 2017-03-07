@@ -189,13 +189,13 @@ private extension CameraButton {
 private extension CGFloat {
     static let sideLength: CGFloat = 66
     static let borderWidth: CGFloat = 6
-    static let borderInset: CGFloat = 2
+    static let contentSpacing: CGFloat = 2
     static let recordingInset: CGFloat = 19
     static let recordingCornerRadius: CGFloat = 4
     
-    static let contentInset = .borderWidth + .borderInset
     static let borderRadius = .sideLength / 2
-    static let contentRadius = .borderRadius - .borderWidth - .borderInset
+    static let contentInset = .borderWidth + .contentSpacing
+    static let contentRadius = .borderRadius - .borderWidth - .contentSpacing
 }
 
 private extension CGRect {
