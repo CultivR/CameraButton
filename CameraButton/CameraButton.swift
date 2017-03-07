@@ -51,6 +51,13 @@ import Then
         }
     }
     
+    fileprivate lazy var contentLayer: CALayer = CALayer().then {
+        $0.frame = .contentRect
+        $0.cornerRadius = .contentRadius
+        $0.backgroundColor = UIColor.photoContent.cgColor
+        self.layer.addSublayer($0)
+    }
+    
     private lazy var borderLayer: CALayer = CALayer().then {
         $0.frame = .rect
         $0.cornerRadius = .borderRadius
@@ -59,22 +66,15 @@ import Then
         self.layer.addSublayer($0)
     }
     
-    fileprivate lazy var contentLayer: CALayer = CALayer().then {
-        $0.frame = .contentRect
-        $0.cornerRadius = .contentRadius
-        $0.backgroundColor = UIColor.photoContent.cgColor
-        self.layer.addSublayer($0)
-    }
-    
     // MARK: UIView
-    override public var backgroundColor: UIColor? {
-        get { return nil }
-        set {}
-    }
-    
     public override init(frame: CGRect) {
         super.init(frame: frame)
         addActions()
+    }
+    
+    override public var backgroundColor: UIColor? {
+        get { return nil }
+        set {}
     }
     
     override public func layoutSubviews() {
