@@ -11,6 +11,7 @@
 		1768BDA81E6F390D00F2AD31 /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768BDA71E6F390D00F2AD31 /* CameraButton.swift */; };
 		1768BDAA1E6F395700F2AD31 /* CameraButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768BDA91E6F395700F2AD31 /* CameraButtonDelegate.swift */; };
 		1768BDAD1E6F3A0500F2AD31 /* Then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1768BDAC1E6F3A0500F2AD31 /* Then.framework */; };
+		1768BDB91E6F45B400F2AD31 /* CameraButton.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1768BDA71E6F390D00F2AD31 /* CameraButton.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1768BDA11E6F38E900F2AD31 /* CameraButton.h in Headers */,
+				1768BDB91E6F45B400F2AD31 /* CameraButton.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
