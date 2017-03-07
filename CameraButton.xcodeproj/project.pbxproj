@@ -12,6 +12,7 @@
 		1768BDAA1E6F395700F2AD31 /* CameraButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768BDA91E6F395700F2AD31 /* CameraButtonDelegate.swift */; };
 		1768BDAD1E6F3A0500F2AD31 /* Then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1768BDAC1E6F3A0500F2AD31 /* Then.framework */; };
 		1768BDB91E6F45B400F2AD31 /* CameraButton.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1768BDA71E6F390D00F2AD31 /* CameraButton.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1768BDBB1E6F486000F2AD31 /* Designables in Resources */ = {isa = PBXBuildFile; fileRef = 1768BDBA1E6F486000F2AD31 /* Designables */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1768BDA71E6F390D00F2AD31 /* CameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
 		1768BDA91E6F395700F2AD31 /* CameraButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraButtonDelegate.swift; sourceTree = "<group>"; };
 		1768BDAC1E6F3A0500F2AD31 /* Then.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Then.framework; path = Carthage/Build/iOS/Then.framework; sourceTree = "<group>"; };
+		1768BDBA1E6F486000F2AD31 /* Designables */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Designables; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				1768BD9E1E6F38E900F2AD31 /* CameraButton */,
+				1768BDBA1E6F486000F2AD31 /* Designables */,
 				1768BD9D1E6F38E900F2AD31 /* Products */,
 				1768BDAB1E6F3A0500F2AD31 /* Frameworks */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1768BDBB1E6F486000F2AD31 /* Designables in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
