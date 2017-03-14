@@ -131,6 +131,9 @@ private extension CameraButton {
         if !animated {
             CATransaction.setDisableActions(true)
         }
+        if mode != .video {
+            isRecording = false
+        }
         contentLayer.backgroundColor = contentColor.cgColor
         CATransaction.commit()
     }
